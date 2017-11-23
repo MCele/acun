@@ -23,7 +23,7 @@ class ci_reloj extends toba_ci {
          * todo: el periodo por defecto
          */
         //$datos['datos']=  $this->get_datos($datos['dni']);
-        $this->dep('datos')->set($datos);
+        $this->dep('datos')->tabla($this->nombre_tabla)->set($datos);
         $this->dep('datos')->sincronizar();
         $this->dep('datos')->resetear();
     }
