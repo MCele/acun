@@ -18,6 +18,7 @@ class acun_autoload
 	}
 
 	static protected $clases = array(
+                'abm_ci' => 'extension_toba/componentes/abm_ci.php',
 		'acun_comando' => 'extension_toba/acun_comando.php',
 		'acun_modelo' => 'extension_toba/acun_modelo.php',
 		'acun_ci' => 'extension_toba/componentes/acun_ci.php',
