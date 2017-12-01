@@ -248,7 +248,7 @@ INSERT INTO apex_objeto_ei_filtro_col (objeto_ei_filtro_col, objeto_ei_filtro, o
 	'320', --objeto_ei_filtro_col
 	'4080', --objeto_ei_filtro
 	'acun', --objeto_ei_filtro_proyecto
-	'fecha_hora', --tipo
+	'fecha', --tipo
 	'time', --nombre
 	'time', --expresion
 	'Fecha', --etiqueta

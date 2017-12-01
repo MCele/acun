@@ -56,7 +56,7 @@ INSERT INTO apex_objeto_cuadro (objeto_cuadro_proyecto, objeto_cuadro, titulo, s
 	NULL, --archivos_callbacks
 	NULL, --ancho
 	'1', --ordenar
-	'0', --paginar
+	'1', --paginar
 	NULL, --tamano_pagina
 	'P', --tipo_paginado
 	'0', --mostrar_total_registros
