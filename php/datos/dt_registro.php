@@ -3,7 +3,7 @@
 class dt_registro extends toba_datos_tabla {
 
     function get_listado($where = null) {
-
+    
         if (is_null($where)) {
             $where = '';
         } else {
