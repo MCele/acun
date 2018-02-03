@@ -9,10 +9,9 @@ class ci_listadoregistro   extends abm_ci {
           
         if (!is_null($this->s__where)) {
             $datos = $this->dep('datos')->tabla($this->nombre_tabla)->get_listado($this->s__where);
-        } else {
-           $datos = $this->dep('datos')->tabla($this->nombre_tabla)->get_listado();
-        }
-        $cuadro->set_datos($datos);
+            $cuadro->set_datos($datos);
+        } 
+        
     }
 
 }

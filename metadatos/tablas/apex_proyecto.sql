@@ -29,7 +29,7 @@ INSERT INTO apex_proyecto (proyecto, descripcion, descripcion_corta, estilo, con
 	'5', --validacion_intentos_min
 	'1', --validacion_bloquear_usuario
 	'0', --validacion_debug
-	'720', --sesion_tiempo_no_interac_min
+	NULL, --sesion_tiempo_no_interac_min
 	NULL, --sesion_tiempo_maximo_min
 	'25', --pm_sesion
 	NULL, --sesion_subclase

@@ -16,7 +16,6 @@ class ci_reloj extends toba_ci {
          */
         //$datos['datos']=  $this->get_datos($datos['dni']);
         $completo = $this->dep('datos')->tabla($this->nombre_tabla)->get_datos_completo($datos['dni']);
-        //print_r($compelto);
         if ($completo != false) {
             $datos['categoria'] = $completo['cat_mapuche'];
             $datos['departamento'] = $completo['departamento'];
