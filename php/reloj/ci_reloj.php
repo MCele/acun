@@ -23,7 +23,7 @@ class ci_reloj extends toba_ci {
             $datos['orientacion'] = $completo['orientacion'];
         }
         $this->dep('datos')->tabla($this->nombre_tabla)->set($datos);
-        $this->dep('datos')->sincronizar();
+        $this->dep('datos')->tabla($this->nombre_tabla)->sincronizar();;
         $this->dep('datos')->resetear();
     }
 

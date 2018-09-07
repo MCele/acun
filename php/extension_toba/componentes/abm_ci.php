@@ -68,13 +68,13 @@ class abm_ci extends toba_ci {
          * todo: el periodo por defecto
          */
         $this->dep('datos')->tabla($this->nombre_tabla)->set($datos);
-        $this->dep('datos')->sincronizar();
+        $this->dep('datos')->tabla($this->nombre_tabla)->sincronizar();;
         $this->resetear();
     }
 
     function evt__formulario__modificacion($datos) {
         $this->dep('datos')->tabla($this->nombre_tabla)->set($datos);
-        $this->dep('datos')->sincronizar();
+        $this->dep('datos')->tabla($this->nombre_tabla)->sincronizar();
         $this->resetear();
     }
 
